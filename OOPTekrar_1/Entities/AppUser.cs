@@ -13,5 +13,6 @@ namespace OOPTekrar_1.Entities
 
         //relational properties
         public virtual AppUserProfile AppUserProfile { get; set; }
+        public virtual List<Order> Orders { get; set; }
     }
 }
