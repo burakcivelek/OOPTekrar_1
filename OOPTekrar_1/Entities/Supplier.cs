@@ -10,8 +10,8 @@ namespace OOPTekrar_1.Entities
     {
         public string CompanyName { get; set; }
         public string Phone { get; set; }
-
+ 
         //relational properties
-        public virtual List<Order> Orders { get; set; }
+        public virtual List<Product> Products { get; set; }
     }
 }
